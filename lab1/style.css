@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 100px;
+    background-color: rgb(72, 72, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+header img {
+    width: 300px;
+    height: 100px;
+    left: 20px;
+    object-fit: contain;
+    position: absolute;
+}
+
+main {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 60px;
+}
+
+footer {
+    text-align: center;
+}

@@ -1,0 +1,149 @@
+body
+{
+    font-family: Arial;
+
+    margin: 20px;
+}
+
+#menu
+{
+    margin-bottom: 15px;
+}
+
+#menu a
+{
+    background: blue;
+
+    color: white;
+
+    padding: 10px;
+
+    text-decoration: none;
+
+    margin-right: 5px;
+}
+
+#submenu
+{
+    margin-top: 15px;
+
+    margin-bottom: 20px;
+}
+
+#submenu a
+{
+    background: blue;
+
+    color: white;
+
+    padding: 5px;
+
+    font-size: 12px;
+
+    text-decoration: none;
+
+    margin-right: 5px;
+}
+
+.selected
+{
+    background: red !important;
+}
+
+table
+{
+    border-collapse: collapse;
+
+    width: 100%;
+}
+
+td,
+th
+{
+    border: 1px solid black;
+
+    padding: 10px;
+}
+
+#pages
+{
+    margin-top: 20px;
+}
+
+#pages a,
+#pages span
+{
+    padding: 5px 10px;
+
+    border: 1px solid gray;
+
+    text-decoration: none;
+
+    margin-right: 5px;
+}
+
+#pages a:hover
+{
+    border: 2px solid black;
+}
+
+form
+{
+    width: 400px;
+
+    margin-top: 20px;
+}
+
+form input,
+form textarea,
+form select
+{
+    width: 100%;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    box-sizing: border-box;
+}
+
+.ok
+{
+    color: green;
+
+    margin-top: 15px;
+
+    margin-bottom: 15px;
+}
+
+.error
+{
+    color: red;
+
+    margin-top: 15px;
+
+    margin-bottom: 15px;
+}
+
+#edit_links,
+#delete_links
+{
+    margin-bottom: 20px;
+}
+
+#edit_links a,
+#delete_links a
+{
+    display: block;
+
+    margin-bottom: 5px;
+}
+
+.current
+{
+    color: red;
+
+    font-weight: bold;
+
+    margin-bottom: 5px;
+}
