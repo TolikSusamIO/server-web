@@ -2,7 +2,7 @@
 <html lang="ru">
     <head>
         <meta charset="UTF-8">
-        <title>Результат get_headers</title>
+        <title>Домашняя работа: Solve the equation</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -95,6 +95,7 @@
                     echo "Оператор: " . $operator . "<br>";
                     echo "X = " . $x;
                      ?>
+                     <img src="./8c5e9451-69e4-41ac-90dc-55d7d83f3d37.png" class="chema">
         </main>
         <footer>
             Самостоятельная работа

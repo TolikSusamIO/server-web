@@ -26,9 +26,15 @@ header img {
 main {
     height: 800px;
     display: flex;
+    flex-direction: column;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     font-size: 30px;
+}
+
+.chema{
+    width: 300px;
 }
 
 
